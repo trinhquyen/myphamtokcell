@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div class="min-h-screen flex flex-col">
     <Header />
-    <main class="main-content">
+    <main class="flex-grow">
       <router-view />
     </main>
     <Footer />
@@ -9,18 +9,8 @@
 </template>
 
 <script setup>
-// import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
-<style>
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #fff;
-}
-.main-content {
-  min-height: 80vh;
-  padding: 1rem 2rem;
-}
-</style>
+<style></style>
