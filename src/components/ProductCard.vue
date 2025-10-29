@@ -2,7 +2,8 @@
   <div
     class="rounded overflow-hidden hover:shadow-2xl/30 hover:shadow-state-900 transition-shadow py-3 hover:scale-110 transition delay-0 duration-300 ease-linear"
   >
-    <router-link :to="`/product/${product.id}`">
+    <!-- <router-link :to="`/product/${product.id}`"> -->
+    <router-link :to="`/product/`">
       <div class="relative">
         <img :src="product.image" alt="" class="w-full h-48 object-cover" />
         <el-tag

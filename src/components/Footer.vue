@@ -4,10 +4,10 @@
   >
     <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
       <!-- Logo + Intro -->
-      <div>
+      <div class="">
         <!-- <img src="/logo.png" alt="Logo" class="h-12 mb-4" /> -->
         <h2
-          class="text-4xl text-[#fff] font-[Licorice] mb-2 font-semibold text-center"
+          class="text-4xl text-[#fff] font-[Licorice] mb-2 font-bold text-center text-shadow-[2.5px_5px_5px_#3498db] logo-gradient"
         >
           F1GENZ
         </h2>
@@ -96,11 +96,22 @@
 </template>
 <style>
 .bg-footer {
-  background-image: url(../assets/images/bgfooter.jpg);
+  /* background-image: url(../assets/images/bgfooter.jpg); */
+  background-image: url(//bizweb.dktcdn.net/100/516/909/themes/959590/assets/footers2_background.jpg?1734935897344);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  background-position: center;
+  /* background-color: #fff; */
+  /* background-blend-mode: color; */
+  /* width: 100%;
+  height: 100%; */
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: color;
+}
+.logo-gradient {
+  background: linear-gradient(90deg, #0088cc, #66d9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>

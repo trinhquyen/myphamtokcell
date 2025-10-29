@@ -12,6 +12,13 @@
       >
         <h1 class="text-white text-4xl md:text-6xl font-bold">F1GENZ Beauty</h1>
       </div>
+      <div class="absolute bottom-[5%] left-[50%] translate-x-[-50%]">
+        <img
+          src="../assets/images/scroll.webp"
+          alt="Scroll Down"
+          class="max-h-[5vw] max-w-full h-auto"
+        />
+      </div>
     </div>
 
     <section class="container mx-auto px-4 py-8">

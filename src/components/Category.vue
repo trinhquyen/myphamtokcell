@@ -18,10 +18,10 @@
       <div
         v-for="(item, index) in categories"
         :key="index"
-        class="flex flex-col items-center hover:text-orange-500!"
+        class="flex flex-col items-center group"
       >
         <div
-          class="w-16 h-16 bg-yellow-300 rounded-full flex items-center justify-center hover:-rotate-10 transition delay-20 duration-300 ease-in-out"
+          class="w-16 h-16 bg-yellow-300 rounded-full flex items-center justify-center group-hover:-rotate-15 transition delay-20 duration-500 ease-in-out"
         >
           <img
             :src="item.image"
@@ -29,7 +29,7 @@
             class="w-8 h-8 object-contain"
           />
         </div>
-        <p class="mt-2 text-sm">
+        <p class="mt-2 text-sm group-hover:text-orange-500!">
           {{ item.label }}
         </p>
       </div>
