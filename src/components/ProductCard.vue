@@ -3,9 +3,11 @@
     class="rounded overflow-hidden hover:shadow-2xl/30 hover:shadow-state-900 transition-shadow py-3 hover:scale-110 transition delay-0 duration-300 ease-linear"
   >
     <!-- <router-link :to="`/product/${product.id}`"> -->
-    <router-link :to="`/product/`">
+    <router-link :to="`/product/${product.id}`">
       <div class="relative">
-        <img :src="product.image" alt="" class="w-full h-48 object-cover" />
+        <div class="flex justify-center items-center">
+          <img :src="product.image" alt="" class="w-48 h-48 object-cover" />
+        </div>
         <el-tag
           v-if="product.discount !== ''"
           type="danger"
@@ -27,16 +29,17 @@
       >
         <div>
           <span v-if="product.discount !== ''" class="line-through"
-            >{{
-              formatCurrency(
-                Math.round((product.price / 100) * product.discount)
-              )
-            }}
+            >{{ formatCurrency(product.price) }}
           </span>
           <p class="no-underline! inline ps-2">chỉ từ</p>
         </div>
         <el-tag type="danger" class="text-sm font-bold" effect="dark">
-          {{ formatCurrency(product.price) }}
+          {{
+            formatCurrency(
+              product.price -
+                Math.round((product.price / 100) * product.discount)
+            )
+          }}
         </el-tag>
       </div>
       <!-- <el-button size="small" type="primary" @click="addToCart"
@@ -50,19 +53,13 @@
 // import { useCartStore } from "@/store/cart";
 import { toRefs, computed } from "vue";
 import { ElMessage } from "element-plus";
-
+import { formatCurrency } from "@/common/common.js";
 const props = defineProps({
   product: {
     type: Object,
     required: true,
   },
 });
-function formatCurrency(amount) {
-  return Intl.NumberFormat("vi-VN", {
-    style: "currency",
-    currency: "VND",
-  }).format(amount);
-}
 
 function addToCart() {
   //   cartStore.addItem(props.product);

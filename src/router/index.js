@@ -8,7 +8,7 @@ import ReturnPolicy from "@/views/ReturnPolicy.vue";
 const routes = [
   { path: "/", name: "Home", component: Home },
   {
-    path: "/productslist/:id",
+    path: "/productslist/face",
     name: "productslist",
     component: productslist,
   },
