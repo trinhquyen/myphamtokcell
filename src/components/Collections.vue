@@ -3,7 +3,7 @@
     <!-- Left side: Collection info -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
       <img
-        src="../assets/images/demo.webp"
+        src="../../public/prd_5.jpg"
         alt="collections"
         class="w-full h-auto object-cover"
       />

@@ -9,10 +9,10 @@
         <h2
           class="text-4xl text-[#fff] font-[Licorice] mb-2 font-bold text-center text-shadow-[2.5px_5px_5px_#3498db] logo-gradient"
         >
-          F1GENZ
+          TOKCELL
         </h2>
         <p>
-          F1GENZ luôn cam kết, đảm bảo bàn giao sản phẩm đạt chất lượng tối ưu
+          TOKCELL luôn cam kết, đảm bảo bàn giao sản phẩm đạt chất lượng tối ưu
           nhất đến tay người dùng.
         </p>
       </div>

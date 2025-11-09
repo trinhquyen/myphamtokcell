@@ -1,10 +1,12 @@
 <template>
   <header class="bg-white shadow-2xl fixed top-0 left-0 right-0 z-1">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <router-link to="/" class="text-2xl font-bold">F1GENZ</router-link>
+      <a href="../" class="el_logo">
+        <img src="/public/logo.png" alt="" srcset="">
+      </a>
       <nav class="hidden md:flex space-x-4">
         <el-menu
-          class="md:w-[400px] xl:w-[500px] font-bold uppercase text-2xl"
+          class="md:w-[400px] xl:w-[600px] font-bold uppercase text-2xl"
           mode="horizontal"
           :router="true"
           default-active="/"
@@ -16,8 +18,9 @@
             <el-menu-item index="/productslist/face"
               >Chống lão hóa</el-menu-item
             >
-            <el-menu-item index="/contact">Skin care</el-menu-item>
+            <el-menu-item index="/productslist/face">Skin care</el-menu-item>
           </el-sub-menu>
+          <el-menu-item index="/introduce">Giới Thiệu</el-menu-item>
           <el-menu-item index="/contact">Liên Hệ</el-menu-item>
         </el-menu>
       </nav>
@@ -45,7 +48,7 @@
             >
             <el-menu-item index="">Skin care</el-menu-item>
           </el-sub-menu>
-          <el-menu-item index="/contact">Liên Hệ</el-menu-item>
+          <el-menu-item index="/introduce">Liên Hệ</el-menu-item>
         </el-menu>
       </el-drawer>
       <div class="lg:flex lg:items-center space-x-4 hidden">
@@ -86,5 +89,10 @@ const handleSelect = (key: string, keyPath: string[]) => {
 }
 .el-drawer__body {
   padding: 0 !important;
+}
+.el_logo {
+  margin: 0 50px;
+  width: 76px;
+  height: 60px;
 }
 </style>

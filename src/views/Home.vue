@@ -3,14 +3,14 @@
     <!-- Banner / Slider -->
     <div class="relative lg:h-[100vh] md:h-96 bg-gray-200 mt-[64px]">
       <img
-        src="../assets/images/banner.webp"
+        src="../../public/Banner.png"
         alt="Banner"
         class="w-full h-full object-cover"
       />
       <div
         class="absolute inset-0 bg-opacity-30 text-shadow-[2.5px_5px_5px_#3498db] flex items-center justify-center"
       >
-        <h1 class="text-white text-4xl md:text-6xl font-bold">F1GENZ Beauty</h1>
+        <h1 class="text-white text-4xl md:text-6xl font-bold">Tokcell Beauty</h1>
       </div>
       <div class="absolute bottom-[5%] left-[50%] translate-x-[-50%]">
         <img
@@ -33,7 +33,7 @@
       </div>
     </section>
     <!-- Category -->
-    <Category />
+    <!-- <Category /> -->
 
     <section class="container mx-auto px-4 py-8">
       <h2
@@ -41,7 +41,7 @@
       >
         Làm đẹp
       </h2>
-      <h2 class="text-2xl font-semibold mb-4 text-center">F1 COLLECTIONS</h2>
+      <h2 class="text-2xl font-semibold mb-4 text-center">Tokcell COLLECTIONS</h2>
       <!-- Collections -->
       <Collections />
     </section>

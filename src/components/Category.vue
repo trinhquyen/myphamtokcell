@@ -13,7 +13,7 @@
       </h2>
     </div>
     <div
-      class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 text-center"
+      class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-4 text-center"
     >
       <div
         v-for="(item, index) in categories"
