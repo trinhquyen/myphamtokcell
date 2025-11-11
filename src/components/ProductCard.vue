@@ -25,13 +25,13 @@
         }}</router-link>
       </h3>
       <div
-        class="flex md:flex-row flex-col items-baseline space-x-2 justify-between text-sm text-gray-500"
+        class="flex md:flex-row flex-col items-baseline space-x-2 justify-between text-sm text-gray-500 flex-wrap"
       >
         <div>
           <span v-if="product.discount !== ''" class="line-through"
             >{{ formatCurrency(product.price) }}
           </span>
-          <p class="no-underline! inline ps-2">chỉ từ</p>
+          <p class="no-underline! inline ps-2 text-nowrap">chỉ từ</p>
         </div>
         <el-tag type="danger" class="text-sm font-bold" effect="dark">
           {{

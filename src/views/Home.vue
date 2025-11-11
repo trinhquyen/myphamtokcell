@@ -10,7 +10,9 @@
       <div
         class="absolute inset-0 bg-opacity-30 text-shadow-[2.5px_5px_5px_#3498db] flex items-center justify-center"
       >
-        <h1 class="text-white text-4xl md:text-6xl font-bold">Tokcell Beauty</h1>
+        <h1 class="text-white text-4xl md:text-6xl font-bold">
+          Tokcell Beauty
+        </h1>
       </div>
       <div class="absolute bottom-[5%] left-[50%] translate-x-[-50%]">
         <img
@@ -34,14 +36,16 @@
     </section>
     <!-- Category -->
     <!-- <Category /> -->
-
+    <section><SkinCare /><Post /></section>
     <section class="container mx-auto px-4 py-8">
       <h2
         class="text-4xl text-[#ecba71] font-[Licorice] mb-2 font-semibold text-center"
       >
         Làm đẹp
       </h2>
-      <h2 class="text-2xl font-semibold mb-4 text-center">Tokcell COLLECTIONS</h2>
+      <h2 class="text-2xl font-semibold mb-4 text-center">
+        TOKCELL COLLECTIONS
+      </h2>
       <!-- Collections -->
       <Collections />
     </section>
@@ -52,6 +56,8 @@ import { ref, onMounted } from "vue";
 import ProductCard from "@/components/ProductCard.vue";
 import Category from "@/components/Category.vue";
 import Collections from "@/components/Collections.vue";
+import Post from "@/components/Post.vue";
+import SkinCare from "@/components/SkinCare.vue";
 import { specialProducts } from "@/mockdata/home.js";
 
 const featuredProducts = ref([]);

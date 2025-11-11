@@ -3,9 +3,9 @@
     <!-- Left side: Collection info -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
       <img
-        src="../../public/prd_5.jpg"
+        src="../../public/prd_1.jpg"
         alt="collections"
-        class="w-full h-auto object-cover"
+        class="w-full h-auto max-h-[416px] object-cover"
       />
       <div class="p-4">
         <h2 class="text-2xl font-bold uppercase">
