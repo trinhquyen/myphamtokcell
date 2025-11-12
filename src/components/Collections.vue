@@ -3,7 +3,7 @@
     <!-- Left side: Collection info -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
       <img
-        src="../../public/prd_1.jpg"
+        src="../../public/post_3.jpg"
         alt="collections"
         class="w-full h-auto max-h-[416px] object-cover"
       />

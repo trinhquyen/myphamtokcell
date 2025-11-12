@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Banner / Slider -->
-    <div class="relative lg:h-[100vh] md:h-96 bg-gray-200 mt-[64px]">
+    <div class="relative lg:h-[100vh] md:h-96 bg-gray-200 mt-[64px] banner_el">
       <img
         src="../../public/Banner.png"
         alt="Banner"
@@ -66,3 +66,9 @@ onMounted(async () => {
   featuredProducts.value = specialProducts;
 });
 </script>
+<style>
+.banner_el {
+  margin-top: 80px !important;
+  height: calc(100vh - 80px);
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
   <header class="bg-white shadow-2xl fixed top-0 left-0 right-0 z-1">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between header_el">
       <a href="../" class="el_logo">
         <img src="/public/logo.png" alt="" srcset="">
       </a>
@@ -94,5 +94,8 @@ const handleSelect = (key: string, keyPath: string[]) => {
   margin: 0 50px;
   width: 76px;
   height: 60px;
+}
+.header_el {
+padding: 10px !important;
 }
 </style>

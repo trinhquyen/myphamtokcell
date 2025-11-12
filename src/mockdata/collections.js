@@ -6,8 +6,8 @@ export const collections = [
     discount: 15,
     shortDescription: "shortDescription",
     image: "../../public/image_product_2.png",
-    madein: "Ben Tre",
-    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN BEN TRE tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
+    madein: "Tokcell",
+    desc: "Giải pháp cải thiện nếp nhăn & độ đàn hồi da Khôi phục sức mạnh cho làn da – lấy lại vẻ khỏe khoắn & săn chắc! Sự kết hợp tối ưu của các thành phần thân thiện với làn da, giúp: Phục hồi độ săn chắc tự nhiên Cải thiện nếp nhăn Nuôi dưỡng da từ sâu bên trong",
   },
   {
     id: 1,
@@ -16,8 +16,8 @@ export const collections = [
     discount: 15,
     shortDescription: "shortDescription",
     image: "../../public/image_product_3.png",
-    madein: "Ben Tre",
-    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN BEN TRE tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
+    madein: "Tokcell",
+    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN Tokcell tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
   },
   {
     id: 1,
@@ -26,8 +26,8 @@ export const collections = [
     discount: 15,
     shortDescription: "shortDescription",
     image: "../../public/image_product_4.png",
-    madein: "Ben Tre",
-    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN BEN TRE tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
+    madein: "Tokcell",
+    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN Tokcell tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
   },
   {
     id: 1,
@@ -36,7 +36,7 @@ export const collections = [
     discount: 15,
     shortDescription: "shortDescription",
     image: "../../public/image_product_5.png",
-    madein: "Ben Tre",
-    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN BEN TRE tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
+    madein: "Tokcell",
+    desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN Tokcell tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
   },
 ];
