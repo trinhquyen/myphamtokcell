@@ -14,21 +14,21 @@
     <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
       <div class="col-span-2">
         <img
-          src="../../public/prd_1.jpg"
+          src="../../public/post_8.png"
           alt=""
           class="w-full max-h-[192px] rounded-md object-cover"
         />
       </div>
       <div class="col-span-1">
         <img
-          src="../../public/prd_2.jpg"
+          src="../../public/post_2.jpg"
           alt=""
           class="w-full max-h-[192px] rounded-md object-cover"
         />
       </div>
       <div class="col-span-1">
         <img
-          src="../../public/prd_3.jpg"
+          src="../../public/post_4.jpg"
           alt=""
           class="w-full max-h-[192px] rounded-md object-cover"
         />
@@ -46,14 +46,14 @@
       </div>
       <div class="col-span-1 row-span-2">
         <img
-          src="../../public/prd_4.jpg"
+          src="../../public/post_5.jpg"
           alt="model"
           class="w-full h-full object-cover rounded-md"
         />
       </div>
       <div class="col-span-2">
         <img
-          src="../../public/prd_6.jpg"
+          src="../../public/post_7.png"
           alt=""
           class="w-full max-h-[192px] rounded-md object-cover"
         />
