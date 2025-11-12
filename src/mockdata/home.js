@@ -5,7 +5,7 @@ export const specialProducts = [
     price: 1190000,
     discount: 15,
     shortDescription: "shortDescription",
-    image: "../../public/prd_1.jpg",
+    image: "../../images/prd_1.jpg",
     sizes: ["170g", "450g"],
   },
   {
@@ -14,7 +14,7 @@ export const specialProducts = [
     price: 1190000,
     discount: 15,
     shortDescription: "shortDescription",
-    image: "../../public/prd_3.jpg",
+    image: "../../images/prd_3.jpg",
     sizes: ["170g", "450g"],
   },
   {
@@ -23,7 +23,7 @@ export const specialProducts = [
     price: 1190000,
     discount: 15,
     shortDescription: "shortDescription",
-    image: "../../public/prd_4.jpg",
+    image: "../../images/prd_4.jpg",
     sizes: ["170g", "450g"],
   },
   {
@@ -32,7 +32,7 @@ export const specialProducts = [
     price: 1190000,
     discount: 15,
     shortDescription: "shortDescription",
-    image: "../../public/prd_5.jpg",
+    image: "../../images/prd_5.jpg",
     sizes: ["170g", "450g"],
   },
 ];
