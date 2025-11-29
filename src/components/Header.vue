@@ -1,8 +1,10 @@
 <template>
   <header class="bg-white shadow-2xl fixed top-0 left-0 right-0 z-1">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between header_el">
+    <div
+      class="container mx-auto px-4 py-4 flex items-center justify-between header_el"
+    >
       <a href="../" class="el_logo">
-        <img src="/public/logo.png" alt="" srcset="">
+        <img src="/public/logo.png" alt="" srcset="" />
       </a>
       <nav class="hidden md:flex space-x-4">
         <el-menu
@@ -48,7 +50,8 @@
             >
             <el-menu-item index="">Skin care</el-menu-item>
           </el-sub-menu>
-          <el-menu-item index="/introduce">Liên Hệ</el-menu-item>
+          <el-menu-item index="/introduce">Giới Thiệu</el-menu-item>
+          <el-menu-item index="/contact">Liên Hệ</el-menu-item>
         </el-menu>
       </el-drawer>
       <div class="lg:flex lg:items-center space-x-4 hidden">
@@ -96,6 +99,6 @@ const handleSelect = (key: string, keyPath: string[]) => {
   height: 60px;
 }
 .header_el {
-padding: 10px !important;
+  padding: 10px !important;
 }
 </style>
