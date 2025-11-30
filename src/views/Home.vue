@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Banner / Slider -->
-    <div class="relative lg:h-[100vh] md:h-96 bg-gray-200 mt-[64px] banner_el">
+    <!-- <div class="relative lg:h-[100vh] md:h-96 bg-gray-200 mt-[64px] banner_el">
       <img
         src="../../public/Banner.png"
         alt="Banner"
@@ -21,7 +21,35 @@
           class="max-h-[5vw] max-w-full h-auto"
         />
       </div>
-    </div>
+    </div> -->
+    <!-- 123 -->
+    <el-carousel
+      arrow="always"
+      class="relative lg:h-[100vh] md:h-96 bg-gray-200 mt-[64px] banner_el"
+    >
+      <el-carousel-item
+        :interval="5000"
+        v-for="item in bannerList"
+        :key="item"
+        class="w-full h-full object-cover"
+      >
+        <img :src="item" alt="Banner" class="w-full h-full object-cover" />
+      </el-carousel-item>
+      <div
+        class="absolute inset-0 bg-opacity-30 text-shadow-[2.5px_5px_5px_#3498db] flex items-center justify-center"
+      >
+        <h1 class="text-white text-4xl md:text-6xl font-bold">
+          Tokcell Beauty
+        </h1>
+      </div>
+      <div class="absolute bottom-[5%] left-[50%] translate-x-[-50%]">
+        <img
+          src="../assets/images/scroll.webp"
+          alt="Scroll Down"
+          class="max-h-[5vw] max-w-full h-auto"
+        />
+      </div>
+    </el-carousel>
 
     <section class="container mx-auto px-4 py-8">
       <h2
@@ -65,10 +93,20 @@ const featuredProducts = ref([]);
 onMounted(async () => {
   featuredProducts.value = specialProducts;
 });
+
+const bannerList = [
+  "../../public/Banner.png",
+  "../../public/post_1.jpg",
+  "../../public/post_2.jpg",
+];
 </script>
 <style>
 .banner_el {
   margin-top: 80px !important;
   height: calc(100vh - 80px);
+}
+.el-carousel__container {
+  height: 100%;
+  width: 100%;
 }
 </style>

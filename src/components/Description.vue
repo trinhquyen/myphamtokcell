@@ -17,7 +17,11 @@
       Chi tiết về
       <span class="inline">{{ product.name }}</span>
     </h2>
-
+    <img
+      :src="product.image"
+      alt="product"
+      class="w-full h-full max-h-[430px] object-cover mb-4 rounded-lg"
+    />
     <table class="w-full border border-gray-300 text-sm mb-8">
       <tbody>
         <tr class="border-b border-gray-300">
