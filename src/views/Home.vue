@@ -106,7 +106,7 @@ const bannerList = [
   height: calc(100vh - 80px);
 }
 .el-carousel__container {
-  height: 100%;
-  width: 100%;
+  height: 100% !important;
+  width: 100% !important;
 }
 </style>
