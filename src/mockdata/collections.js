@@ -7,7 +7,7 @@ export const collections = [
     shortDescription: "shortDescription",
     madeIn: "Hàn Quốc",
     type: "Skincare",
-    image: "../../src/assets/images/serumtrinam1.JPG",
+    image: "../../images/serumtrinam1.JPG",
     sizes: ["30ml"],
 
   },
