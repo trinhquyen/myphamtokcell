@@ -19,7 +19,7 @@ export const collections = [
     shortDescription: "shortDescription",
     madeIn: "Hàn Quốc",
     type: "Skincare",
-    image: "../../src/assets/images/serumColagen2.JPG",
+    image: "../../images/serumColagen2.JPG",
     sizes: ["30ml"],
   },
   {
@@ -30,7 +30,7 @@ export const collections = [
     shortDescription: "shortDescription",
     madeIn: "Hàn Quốc",
     type: "Skincare",
-    image: "../../src/assets/images/serumphuchoida2.JPG",
+    image: "../../images/serumphuchoida2.JPG",
     sizes: ["30ml"],
   },
   {
@@ -41,7 +41,7 @@ export const collections = [
     shortDescription: "shortDescription",
     madeIn: "Hàn Quốc",
     type: "Skincare",
-    image: "../../src/assets/images/serumtrimun2.JPG",
+    image: "../../images/serumtrimun2.JPG",
     sizes: ["30ml"],
   }
 ];
