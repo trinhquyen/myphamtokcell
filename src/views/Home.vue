@@ -5,7 +5,12 @@
       <img
         src="../../public/Banner.png"
         alt="Banner"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover banner_pc"
+      />
+      <img
+        src="../assets/images/banner_mb.png"
+        alt="Banner"
+        class="w-full h-full object-cover banner_mobile"
       />
       <div
         class="absolute inset-0 bg-opacity-30 text-shadow-[2.5px_5px_5px_#3498db] flex items-center justify-center"
@@ -36,7 +41,7 @@
     </section>
     <!-- Category -->
     <!-- <Category /> -->
-    <section><SkinCare /><Post /></section>
+    <section><Post /></section>
     <section class="container mx-auto px-4 py-8">
       <h2
         class="text-4xl text-[#ecba71] font-[Licorice] mb-2 font-semibold text-center"
@@ -70,5 +75,15 @@ onMounted(async () => {
 .banner_el {
   margin-top: 80px !important;
   height: calc(100vh - 80px);
+}
+@media (min-width: 600px) {
+  .banner_mobile {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .banner_pc {
+    display: none;
+  }
 }
 </style>

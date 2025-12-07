@@ -14,7 +14,7 @@
     <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
       <div class="col-span-2">
         <img
-          src="../../public/post_8.png"
+          src="../../src/assets/images/post_22.JPG"
           alt=""
           class="w-full max-h-[192px] rounded-md object-cover"
         />
@@ -53,7 +53,7 @@
       </div>
       <div class="col-span-2">
         <img
-          src="../../public/post_7.png"
+          src="../../src/assets/images/post_24.JPG"
           alt=""
           class="w-full max-h-[192px] rounded-md object-cover"
         />
