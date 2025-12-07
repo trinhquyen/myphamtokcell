@@ -4,7 +4,7 @@
       <ProductGallery :product="product" class="" />
       <ProductInfo :product="product" :sizes="['57g', '170g', '1g']" />
     </div>
-    <Description />
+    <Description :product="product" />
   </div>
 </template>
 
@@ -17,12 +17,20 @@ import { ref, onMounted, watch } from "vue";
 import Description from "@/components/Description.vue";
 
 const route = useRoute();
-const product = ref([]);
+const product = ref({});
 const id = route.params.id as string;
 
-onMounted(async () => {
-  product.value = specialProducts[id];
+onMounted(() => {
+  product.value = specialProducts[id] ?? null;
 });
 
-watch(() => route.params.id);
+watch(
+  () => route.params.id,
+  () => {
+    product.value = specialProducts[route.params.id];
+    {
+      deep: true;
+    }
+  }
+);
 </script>

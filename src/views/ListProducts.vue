@@ -10,7 +10,7 @@
       <aside class="w-64 hidden md:block">
         <!-- Bộ lọc: giá, thương hiệu, v.v. -->
         <div class="mb-4">
-          <h4 class="font-semibold mb-2">Khoảng giá</h4>
+          <!-- <h4 class="font-semibold mb-2">Khoảng giá</h4> -->
           <!-- Các checkbox/range filter -->
         </div>
       </aside>
