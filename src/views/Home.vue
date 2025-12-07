@@ -100,7 +100,7 @@ onMounted(async () => {
 });
 
 const bannerList = [
-  "../../images/Banner.png",
+  "../../images/banner.png",
   "../../images/post_4.jpg",
   "../../images/post_3.jpg",
 ];
