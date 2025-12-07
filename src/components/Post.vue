@@ -14,16 +14,16 @@
     <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
       <div class="col-span-2">
         <img
-          src="../../src/assets/images/post_22.JPG"
+          src="../../src/assets/images/post_233.jpg"
           alt=""
-          class="w-full max-h-[192px] rounded-md object-cover"
+          class="w-full max-h-[280px] rounded-md object-cover"
         />
       </div>
       <div class="col-span-1">
         <img
           src="../../public/post_2.jpg"
           alt=""
-          class="w-full max-h-[192px] rounded-md object-cover"
+          class="w-full max-h-[280px] rounded-md object-cover"
         />
       </div>
       <div class="col-span-1">
@@ -53,9 +53,9 @@
       </div>
       <div class="col-span-2">
         <img
-          src="../../src/assets/images/post_24.JPG"
+          src="../../src/assets/images/post_3.jpg"
           alt=""
-          class="w-full max-h-[192px] rounded-md object-cover"
+          class="w-full max-h-[280px] rounded-md object-cover"
         />
       </div>
     </div>

@@ -17,9 +17,9 @@
           <el-menu-item #title index="/">Trang Chủ</el-menu-item>
           <el-sub-menu>
             <template #title> Mỹ Phẩm</template>
-            <el-menu-item index="/productslist/face"
+            <!-- <el-menu-item index="/productslist/face"
               >Chống lão hóa</el-menu-item
-            >
+            > -->
             <el-menu-item index="/productslist/face">Skin care</el-menu-item>
           </el-sub-menu>
           <el-menu-item index="/introduce">Giới Thiệu</el-menu-item>
@@ -45,9 +45,9 @@
           <el-menu-item index="/">Trang Chủ</el-menu-item>
           <el-sub-menu>
             <template #title> Mỹ Phẩm</template>
-            <el-menu-item index="/productslist/face"
+            <!-- <el-menu-item index="/productslist/face"
               >Chống lão hóa</el-menu-item
-            >
+            > -->
             <el-menu-item index="">Skin care</el-menu-item>
           </el-sub-menu>
           <el-menu-item index="/introduce">Giới Thiệu</el-menu-item>

@@ -18,7 +18,7 @@
           {{ collections[0].desc }}
         </p>
         <a
-          href="#"
+          href="/productslist/face"
           class="text-sm text-orange-500 font-semibold mt-2 inline-block"
           >Xem tất cả</a
         >

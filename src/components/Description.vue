@@ -8,20 +8,15 @@
   </header>
 
   <main class="max-w-4xl mx-auto p-6 leading-relaxed">
-    <!-- <p class="mb-4">
-      <strong>{{ product.name }}</strong>
-      – <p v-if="product.shortDescription"></p>
-    </p> -->
+    <p class="mb-4">
+      <!-- <strong>{{ product.name }}</strong> -->
+      <p v-if="product.shortDescription" v-html="product.shortDescription"></p>
+    </p>
 
     <h2 class="text-lg font-bold mt-8 mb-4 uppercase">
       Chi tiết về
       <span class="inline">{{ product.name }}</span>
     </h2>
-    <img
-      :src="product.image"
-      alt="product"
-      class="w-full h-full max-h-[430px] object-cover mb-4 rounded-lg"
-    />
     <table class="w-full border border-gray-300 text-sm mb-8">
       <tbody>
         <tr class="border-b border-gray-300">
@@ -42,17 +37,16 @@
         </tr>
       </tbody>
     </table>
-
+    <!-- <img
+      :src="product.image2"
+      alt="product"
+      class="w-full h-full max-h-[430px] object-cover mb-4 rounded-lg"
+    /> -->
     <section class="space-y-6 text-sm">
       <div>
         <h3 class="font-semibold text-base mb-2">
           1. Công dụng chính của sản phẩm {{ product.name }}.
         </h3>
-        <p>
-          Không chỉ được tạo thành từ các thành phần dưỡng chiết xuất tự nhiên,
-          {{ product.name }} còn được người tiêu dùng lựa chọn là bởi những công
-          dụng tuyệt vời mà nó mang lại như sau:
-        </p>
         <ul class="list-disc list-inside mt-2 space-y-1">
           <li v-for="utility in product.desc?.utilities" :key="utility">
             {{ utility }}
@@ -73,7 +67,7 @@
         </h3>
         <ul class="list-disc list-inside space-y-2">
           <li v-for="component in product.desc?.components">
-            <strong>{{ component.highLightContent }}</strong>
+            <strong>{{ component.highLightContent }}: </strong>
             {{ component.content }}
           </li>
         </ul>

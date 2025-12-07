@@ -21,16 +21,18 @@ const product = ref({});
 const id = route.params.id as string;
 
 onMounted(() => {
-  product.value = specialProducts[id] ?? null;
+  product.value = specialProducts.find(
+      item => item.id == route.params.id
+    );
 });
 
 watch(
   () => route.params.id,
   () => {
-    product.value = specialProducts[route.params.id];
-    {
-      deep: true;
-    }
-  }
+    product.value = specialProducts.find(
+      item => item.id == route.params.id
+    );
+  },
+  { deep: true }
 );
 </script>
