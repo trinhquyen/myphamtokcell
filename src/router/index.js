@@ -5,6 +5,7 @@ import ProductDetail from "@/views/ProductDetail.vue";
 import Introduce from "@/views/Introduce.vue";
 import Contact from "@/views/Contact.vue";
 import ReturnPolicy from "@/views/ReturnPolicy.vue";
+import NotFound from "@/views/NotFound.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -17,11 +18,19 @@ const routes = [
   { path: "/introduce", name: "Introduce", component: Introduce },
   { path: "/contact", name: "Contact", component: Contact },
   { path: "/returnPolicy", name: "ReturnPolicy", component: ReturnPolicy },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: NotFound,
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0, behavior: "smooth" };
+  },
 });
 
 export default router;

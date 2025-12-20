@@ -3,16 +3,16 @@
     <div
       class="container mx-auto px-4 py-4 flex items-center justify-between header_el"
     >
-      <a href="../" class="el_logo">
-        <img src="/public/logo.png" alt="" srcset="" />
-      </a>
+      <router-link to="/" class="el_logo"
+        ><img src="/public/logo.png" alt="" srcset=""
+      /></router-link>
       <nav class="hidden md:flex space-x-4">
         <el-menu
           class="md:w-[400px] xl:w-[600px] font-bold uppercase text-2xl"
           mode="horizontal"
           :router="true"
-          default-active="/"
           :collapse="false"
+          :default-active="route.path"
         >
           <el-menu-item #title index="/">Trang Chủ</el-menu-item>
           <el-sub-menu>
@@ -70,6 +70,9 @@
 import { computed, ref } from "vue";
 // import { SearchBar, ElMenu, ElMenuItem } from "@/components/SearchBar.vue";
 import { ShoppingCart } from "@element-plus/icons-vue";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
 
 const cartItemCount = ref(0);
 

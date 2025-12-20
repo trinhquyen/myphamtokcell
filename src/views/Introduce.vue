@@ -1,9 +1,13 @@
 <template>
   <section class="container mx-auto px-4 py-8 mt-[64px]">
-    <router-link to="/" class="mr-2 hover:text-blue-700">Trang Chủ</router-link>
+    <router-link to="/" class="mr-2 hover:text-[#409eff]"
+      ><span class="text-xl font-semibold mb-4">Trang Chủ</span></router-link
+    >
     /
-    <router-link to="/introduce" class="ml-2 text-[#ecba71]"
-      >Giới thiệu</router-link
+    <router-link
+      to="/introduce"
+      class="ml-2 text-[#ecba71] hover:text-[#eb961a]"
+      ><span class="text-xl font-semibold mb-4">Giới thiệu</span></router-link
     ><br /><br /><br />
     <p>
       Chào mừng bạn đến với www.beautybox.com.vn Chúng tôi là Công ty thương mại

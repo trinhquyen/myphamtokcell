@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center space-y-3">
+  <div class="flex flex-col space-y-3">
     <img
       :src="product.image"
       alt="product"

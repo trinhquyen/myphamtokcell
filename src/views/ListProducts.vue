@@ -1,11 +1,22 @@
 <template>
   <div class="container mx-auto px-4 py-8 mt-[64px]">
-    <!-- <router-link to="/" class="mr-2 hover:text-blue-700">Trang Chủ</router-link>
+    <!-- <router-link to="/" class="mr-2 hover:text-[#409eff]">Trang Chủ</router-link>
     /
     <router-link to="/contact" class="ml-2 text-[#ecba71]"
       >Giới thiệu</router-link
     ><br /><br /><br /> -->
-    <h1 class="text-2xl font-semibold mb-4">{{ categoryName }}</h1>
+    <router-link to="/" class="mr-2 hover:text-[#409eff]">
+      <span class="text-xl font-semibold mb-4">Trang chủ</span>
+    </router-link>
+    /
+    <router-link
+      :to="`${route.path}`"
+      class="ml-2 text-[#ecba71] hover:text-[#eb961a]"
+    >
+      <span class="text-xl font-semibold mb-4">
+        {{ categoryName }}
+      </span></router-link
+    >
     <div class="flex gap-6">
       <aside class="w-64 hidden md:block">
         <!-- Bộ lọc: giá, thương hiệu, v.v. -->

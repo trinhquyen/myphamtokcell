@@ -1,6 +1,8 @@
 <template>
   <section class="container mx-auto px-4 py-8 mt-[64px]">
-    <router-link to="/" class="mr-2 hover:text-blue-700">Trang Chủ</router-link>
+    <router-link to="/" class="mr-2 hover:text-[#409eff]"
+      >Trang Chủ</router-link
+    >
     /
     <router-link to="/returnPolicy" class="ml-2 text-[#ecba71]"
       >Chính sách đổi trả</router-link
