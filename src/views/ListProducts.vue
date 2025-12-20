@@ -65,7 +65,7 @@ const breadcrumbItems = ref([]); // cấu hình tùy theo phân cấp danh mục
 async function load() {
   const id = route.params.id as string;
   products.value = specialProducts;
-  total.value = 50;
+  total.value = 6;
   categoryName.value = "Mỹ phẩm";
   //   breadcrumbItems.value = resp.breadcrumb;
 }

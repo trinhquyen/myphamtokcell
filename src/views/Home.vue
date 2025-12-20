@@ -5,7 +5,12 @@
       <img
         src="../../public/Banner.png"
         alt="Banner"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover banner_pc"
+      />
+      <img
+        src="../assets/images/banner_mb.png"
+        alt="Banner"
+        class="w-full h-full object-cover banner_mobile"
       />
       <div
         class="absolute inset-0 bg-opacity-30 text-shadow-[2.5px_5px_5px_#3498db] flex items-center justify-center"
@@ -64,7 +69,7 @@
     </section>
     <!-- Category -->
     <!-- <Category /> -->
-    <section><SkinCare /><Post /></section>
+    <section><Post /></section>
     <section class="container mx-auto px-4 py-8">
       <h2
         class="text-4xl text-[#ecba71] font-[Licorice] mb-2 font-semibold text-center"
@@ -95,9 +100,9 @@ onMounted(async () => {
 });
 
 const bannerList = [
-  "../../public/Banner.png",
-  "../../public/post_1.jpg",
-  "../../public/post_2.jpg",
+  "../../images/banner.png",
+  "../../images/post_4.jpg",
+  "../../images/post_3.jpg",
 ];
 </script>
 <style>

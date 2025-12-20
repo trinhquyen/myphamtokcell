@@ -1,11 +1,11 @@
 export const collections = [
     {
       id: 1,
-      name: "Kem Dưỡng Body Trẻ Hóa Da Toàn Thân Image BODY SPA Rejuvenating Body Lotion",
-      price: 1190000,
+      name: "Nước hoa hồng",
+      price: 550000,
       discount: 15,
       shortDescription: "shortDescription",
-      image: "../../images/image_product_2.png",
+      image: "../../images/nuochoahong1.JPG",
       madein: "Ben Tre",
       desc: "Với hành trình khám phá không ngừng và niềm tự hào to lớn về Việt Nam, các NTK FORMAT đã tiếp tục đặt chân đến mảnh đất Bến Tre bình dị và thân thương. BST WHEN IN BEN TRE tinh tế khai thác hình ảnh rặng dừa cùng sông nước đặc trưng theo phong cách nghệ thuật Toile de Jouy trên nền chất liệu lụa Latin đắt giá",
     },
